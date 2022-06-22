@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Bebas Neue', cursive;
+}
+body{
+    background: #fafafa;
+}
+#MBN-menu{
+    position: fixed;
+    top: 0;
+    min-width: 100%;
+    max-width: 100%;
+}
+#MBN-menu ul{
+    display: flex;
+    background: #eee;
+    box-shadow: rgb(0, 0, 0) 0px 0px 20px;
+    justify-content: center;
+}
+#MBN-menu ul li{
+    list-style: none;
+    box-shadow: #121212 0px 0px 5px;
+    margin-left: 10px;
+    transition: 0.25s ease-in-out;
+}
+#MBN-menu ul li:hover{
+    box-shadow: #a7a7a7 0px 0px 20px;
+    margin-top: -5px;
+}
+#MBN-menu ul li img{
+    padding: 15px 20px;
+    min-width: 30px;
+    min-height: 30px;
+}
+#MBN-menu ul li a{
+    color: #121212;
+    text-decoration: none;
+    text-align: center;
+}
+/* scroll buttons*/
+#right-left-scroll-buttons{
+    position: absolute;
+    bottom: 0px;
+}
+#right-left-scroll-buttons button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    max-width: 60px;
+}
+/* header styles*/
+header{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("images/link-tools.jpg");
+}
+header h1{
+    text-align: center;
+    min-width: 50%;
+}
+/* page one*/
+#header-texts p{
+    font-size: 18px;
+}
+.page1{
+    min-width: 100%;
+    text-align: center;
+}
+header div{
+    position: absolute;
+}
+.page2 , .page3{
+    display: none;
+    margin: 8%;
+}
+#scroll-to-main{
+    padding: 20px;
+    text-align: center;
+}
+/*scroll animation move to left*/
+@keyframes moveToLeft {
+    0%{
+        margin-left: 500%;
+    } 100%{
+        margin-left: 0;
+    }
+}
+/* main style */
+main{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(245, 245, 245);
+}
+li{
+    list-style: none;
+}
+/* footer style*/
+
+footer{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
+}
+#follow-me-Dm-me{
+    text-align: center;
+}
+#follow-me-Dm-me h3{
+    padding: 20px;
+}
+#myAbilities{
+    padding: 10px;
+    border-radius: 20px;
+    background: rgba(255, 116, 116, 0.603);
+}
+#myInterestings{
+    padding: 10px;
+    background: rgba(255, 184, 52, 0.603);
+    border-radius: 10px;
+}
+#myHobbies{
+    padding: 10px;
+    background: rgba(13, 0, 194, 0.603);
+    border-radius: 20px;
+}
+#jobStatus{
+    padding: 10px;
+    background: rgba(30, 255, 0, 0.541);
+    border-radius: 20px;
+}
+main div div{
+    min-width: 200px;
+    margin-top: 10px;
+    width: 200px;
+}
