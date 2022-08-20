@@ -70,9 +70,6 @@ header h1{
     min-width: 100%;
     text-align: center;
 }
-header div{
-    position: absolute;
-}
 .page2 , .page3{
     display: none;
     margin: 8%;
